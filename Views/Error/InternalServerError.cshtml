@@ -1,0 +1,19 @@
+@{
+    ViewData["Title"] = "500 - Internal Server Error";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="error-code">500</div>
+<h1 class="h2 mb-3">Internal Server Error</h1>
+<p class="error-message mb-4">Something went wrong on our end. We're working to fix it.</p>
+
+<div class="mb-4">
+    <a href="/" class="btn btn-primary btn-lg mr-3">Go Home</a>
+    <button onclick="location.reload()" class="btn btn-outline-secondary btn-lg">Try Again</button>
+</div>
+
+<div class="mt-4">
+    <small class="text-muted">
+        If this problem persists, please contact support.
+    </small>
+</div>

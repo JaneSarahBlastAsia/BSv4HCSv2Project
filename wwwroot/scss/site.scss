@@ -1,0 +1,11 @@
+@import "./variables.scss";
+
+// Site-specific SCSS file
+// Use Bootstrap from node_modules
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Use design styles from the same folder
+@import "./design.scss";
+
+
+

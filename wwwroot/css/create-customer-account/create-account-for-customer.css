@@ -1,0 +1,73 @@
+.form-step {
+    display: none;
+}
+
+.form-step.active {
+    display: block;
+}
+
+.progress {
+    height: 25px;
+}
+
+.progress-bar {
+    transition: width 0.5s ease-in-out;
+}
+
+#captcha-code {
+    font-family: 'Courier New', monospace;
+    letter-spacing: 3px;
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAB9JREFUeNpiZGBg+M+ABfwH4v8M//8zMDGACSAGEGAAg+4C4WkXtvAAAAAASUVORK5CYII=');
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.card-header {
+    border-radius: 10px 10px 0 0 !important;
+}
+
+.invalid-feedback {
+    display: none;
+}
+
+input:focus, select:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Secure field styling */
+#cardNumber, #cvv, #expDate, #routingNumber, #accountNumber {
+    background-color: #f8f9fa;
+    border-color: #6c757d;
+}
+
+/* Highlight required fields */
+label span.text-danger {
+    margin-left: 2px;
+}
+
+/* Animation for step transitions */
+.form-step {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.form-step.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@media (max-width: 576px) {
+    .card-body {
+        padding: 1rem;
+    }
+    
+    .form-group {
+        margin-bottom: 0.75rem;
+    }
+}
