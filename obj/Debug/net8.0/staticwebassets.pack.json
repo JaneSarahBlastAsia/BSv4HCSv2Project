@@ -1,0 +1,97 @@
+{
+  "Files": [
+    {
+      "Id": "/app/source/code/wwwroot/book-patient-appointment/appointment-overview-for-patient.html",
+      "PackagePath": "staticwebassets/book-patient-appointment/appointment-overview-for-patient.html"
+    },
+    {
+      "Id": "/app/source/code/wwwroot/book-patient-appointment/book-appointment-for-patient.html",
+      "PackagePath": "staticwebassets/book-patient-appointment/book-appointment-for-patient.html"
+    },
+    {
+      "Id": "/app/source/code/wwwroot/code-generation.log",
+      "PackagePath": "staticwebassets/code-generation.log"
+    },
+    {
+      "Id": "/app/source/code/wwwroot/css/book-patient-appointment/appointment-overview-for-patient.css",
+      "PackagePath": "staticwebassets/css/book-patient-appointment/appointment-overview-for-patient.css"
+    },
+    {
+      "Id": "/app/source/code/wwwroot/css/book-patient-appointment/book-appointment-for-patient.css",
+      "PackagePath": "staticwebassets/css/book-patient-appointment/book-appointment-for-patient.css"
+    },
+    {
+      "Id": "/app/source/code/wwwroot/css/manage-provider-schedule/provider-schedule-management.css",
+      "PackagePath": "staticwebassets/css/manage-provider-schedule/provider-schedule-management.css"
+    },
+    {
+      "Id": "/app/source/code/wwwroot/css/site.min.css",
+      "PackagePath": "staticwebassets/css/site.min.css"
+    },
+    {
+      "Id": "/app/source/code/wwwroot/html-generation-metadata.json",
+      "PackagePath": "staticwebassets/html-generation-metadata.json"
+    },
+    {
+      "Id": "/app/source/code/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "/app/source/code/wwwroot/js/book-patient-appointment/appointment-overview-for-patient.js",
+      "PackagePath": "staticwebassets/js/book-patient-appointment/appointment-overview-for-patient.js"
+    },
+    {
+      "Id": "/app/source/code/wwwroot/js/book-patient-appointment/book-appointment-for-patient.js",
+      "PackagePath": "staticwebassets/js/book-patient-appointment/book-appointment-for-patient.js"
+    },
+    {
+      "Id": "/app/source/code/wwwroot/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/app/source/code/wwwroot/js/common-script.js",
+      "PackagePath": "staticwebassets/js/common-script.js"
+    },
+    {
+      "Id": "/app/source/code/wwwroot/js/manage-provider-schedule/provider-schedule-management.js",
+      "PackagePath": "staticwebassets/js/manage-provider-schedule/provider-schedule-management.js"
+    },
+    {
+      "Id": "/app/source/code/wwwroot/js/menu-config.json",
+      "PackagePath": "staticwebassets/js/menu-config.json"
+    },
+    {
+      "Id": "/app/source/code/wwwroot/manage-provider-schedule/provider-schedule-management.html",
+      "PackagePath": "staticwebassets/manage-provider-schedule/provider-schedule-management.html"
+    },
+    {
+      "Id": "/app/source/code/wwwroot/scss/design.scss",
+      "PackagePath": "staticwebassets/scss/design.scss"
+    },
+    {
+      "Id": "/app/source/code/wwwroot/scss/site.scss",
+      "PackagePath": "staticwebassets/scss/site.scss"
+    },
+    {
+      "Id": "/app/source/code/wwwroot/scss/variables.scss",
+      "PackagePath": "staticwebassets/scss/variables.scss"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.HCSqaprojectv1test.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.HCSqaprojectv1test.props",
+      "PackagePath": "build\\HCSqaprojectv1test.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.HCSqaprojectv1test.props",
+      "PackagePath": "buildMultiTargeting\\HCSqaprojectv1test.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.HCSqaprojectv1test.props",
+      "PackagePath": "buildTransitive\\HCSqaprojectv1test.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

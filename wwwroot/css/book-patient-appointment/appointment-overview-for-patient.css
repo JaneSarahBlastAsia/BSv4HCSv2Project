@@ -1,0 +1,170 @@
+.appointment-overview-container {
+    padding: 20px;
+}
+
+.page-title {
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+.appointment-date {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.appointment-date .month {
+    font-size: 14px;
+    font-weight: bold;
+    color: #6c757d;
+}
+
+.appointment-date .day {
+    font-size: 24px;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.appointment-date .year {
+    font-size: 14px;
+    color: #6c757d;
+}
+
+.appointment-time {
+    font-weight: bold;
+    color: #495057;
+}
+
+.doctor-name {
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+.speciality, .location {
+    color: #6c757d;
+}
+
+.appointment-type {
+    margin-top: 10px;
+}
+
+.badge {
+    font-size: 85%;
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+
+.badge-info {
+    background-color: #17a2b8;
+}
+
+.badge-success {
+    background-color: #28a745;
+}
+
+.badge-warning {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+.badge-danger {
+    background-color: #dc3545;
+}
+
+.badge-secondary {
+    background-color: #6c757d;
+}
+
+.badge-primary {
+    background-color: #007bff;
+}
+
+.appointment-card {
+    transition: transform 0.2s;
+    border-left: 5px solid #007bff;
+}
+
+.appointment-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.tab-content {
+    background-color: #fff;
+    border-left: 1px solid #dee2e6;
+    border-right: 1px solid #dee2e6;
+    border-bottom: 1px solid #dee2e6;
+    border-radius: 0 0 5px 5px;
+    padding: 20px;
+}
+
+.nav-tabs .nav-link {
+    color: #495057;
+}
+
+.nav-tabs .nav-link.active {
+    font-weight: bold;
+}
+
+.calendar-day {
+    height: 100px;
+    vertical-align: top;
+    padding: 5px;
+    position: relative;
+}
+
+.prev-month, .next-month {
+    color: #adb5bd;
+    background-color: #f8f9fa;
+}
+
+.has-appointment {
+    background-color: #e8f4ff;
+}
+
+.appointment-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #007bff;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+
+.calendar-table th {
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+.current-month {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.rating .fa-star, .rating .fa-star-half-alt {
+    color: #ffc107;
+}
+
+.rating-count {
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+.cancel-reason {
+    color: #dc3545;
+    font-style: italic;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767.98px) {
+    .appointment-card .row {
+        text-align: center;
+    }
+    
+    .btn-group-vertical {
+        margin-top: 10px;
+    }
+}

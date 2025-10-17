@@ -1,0 +1,181 @@
+dbug: Microsoft.Extensions.Hosting.Internal.Host[1]
+      Hosting starting
+info: WorkflowCore.Services.WorkflowHost[0]
+      Starting background tasks
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /app/RawFrontEndCode.Aggregator
+dbug: Microsoft.Extensions.Hosting.Internal.Host[2]
+      Hosting started
+dbug: WorkflowCore.Services.WorkflowExecutor[0]
+      Starting step EnvironmentSetupStep on workflow 25b0c854-9804-457b-b2fc-e9f63cb67ee3
+dbug: WorkflowCore.Services.WorkflowExecutor[0]
+      Starting step GenerateOAuthTokenStep on workflow 25b0c854-9804-457b-b2fc-e9f63cb67ee3
+dbug: RawFrontEndCode.Aggregator.Workflows.Steps.GenerateOAuthTokenStep[0]
+      Token Generated
+dbug: WorkflowCore.Services.WorkflowExecutor[0]
+      Starting step FetchPagesInProject on workflow 25b0c854-9804-457b-b2fc-e9f63cb67ee3
+dbug: RawFrontEndCode.Aggregator.Workflows.Steps.FetchPagesInProject[0]
+      Trying to fetch pages in Project Id:1654
+info: System.Net.Http.HttpClient.XamunApiHttpClient.LogicalHandler[100]
+      Start processing HTTP request GET https://xamunapp-x-v2test.azurewebsites.net/service/api/CustomSelectedApplicationFeaturePagesAsync/GetApplicationFeaturePagesV2ForAgent/1654
+info: System.Net.Http.HttpClient.XamunApiHttpClient.ClientHandler[100]
+      Sending HTTP request GET https://xamunapp-x-v2test.azurewebsites.net/service/api/CustomSelectedApplicationFeaturePagesAsync/GetApplicationFeaturePagesV2ForAgent/1654
+info: System.Net.Http.HttpClient.XamunApiHttpClient.ClientHandler[101]
+      Received HTTP response headers after 621.6611ms - 200
+info: System.Net.Http.HttpClient.XamunApiHttpClient.LogicalHandler[101]
+      End processing HTTP request after 647.7285ms - 200
+dbug: RawFrontEndCode.Aggregator.Workflows.Steps.FetchPagesInProject[0]
+      Total 3 in project found
+dbug: WorkflowCore.Services.WorkflowExecutor[0]
+      Starting step GenerateOAuthTokenStep on workflow 25b0c854-9804-457b-b2fc-e9f63cb67ee3
+dbug: RawFrontEndCode.Aggregator.Workflows.Steps.GenerateOAuthTokenStep[0]
+      Token Generated
+dbug: WorkflowCore.Services.WorkflowExecutor[0]
+      Starting step DownloadPageContentStep on workflow 25b0c854-9804-457b-b2fc-e9f63cb67ee3
+dbug: RawFrontEndCode.Aggregator.Workflows.Steps.DownloadPageContentStep[0]
+      Trying to download source content of PageId: 21550
+dbug: RawFrontEndCode.Aggregator.Workflows.Steps.DownloadPageContentStep[0]
+      Trying to download source content of PageId: 21548
+dbug: RawFrontEndCode.Aggregator.Workflows.Steps.DownloadPageContentStep[0]
+      Trying to download source content of PageId: 21549
+info: System.Net.Http.HttpClient.XamunApiHttpClient.LogicalHandler[100]
+      Start processing HTTP request GET https://xamunapp-x-v2test.azurewebsites.net/service/api/XamiPageDesigner/GeneratedPage/1654/5636/21550
+info: System.Net.Http.HttpClient.XamunApiHttpClient.LogicalHandler[100]
+      Start processing HTTP request GET https://xamunapp-x-v2test.azurewebsites.net/service/api/XamiPageDesigner/GeneratedPage/1654/5635/21548
+info: System.Net.Http.HttpClient.XamunApiHttpClient.LogicalHandler[100]
+      Start processing HTTP request GET https://xamunapp-x-v2test.azurewebsites.net/service/api/XamiPageDesigner/GeneratedPage/1654/5635/21549
+info: System.Net.Http.HttpClient.XamunApiHttpClient.ClientHandler[100]
+      Sending HTTP request GET https://xamunapp-x-v2test.azurewebsites.net/service/api/XamiPageDesigner/GeneratedPage/1654/5636/21550
+info: System.Net.Http.HttpClient.XamunApiHttpClient.ClientHandler[100]
+      Sending HTTP request GET https://xamunapp-x-v2test.azurewebsites.net/service/api/XamiPageDesigner/GeneratedPage/1654/5635/21549
+info: System.Net.Http.HttpClient.XamunApiHttpClient.ClientHandler[100]
+      Sending HTTP request GET https://xamunapp-x-v2test.azurewebsites.net/service/api/XamiPageDesigner/GeneratedPage/1654/5635/21548
+info: System.Net.Http.HttpClient.XamunApiHttpClient.ClientHandler[101]
+      Received HTTP response headers after 1158.4231ms - 200
+info: System.Net.Http.HttpClient.XamunApiHttpClient.LogicalHandler[101]
+      End processing HTTP request after 1159.7027ms - 200
+dbug: RawFrontEndCode.Aggregator.Workflows.Steps.DownloadPageContentStep[0]
+      Content downloaded for PageId: 21549
+dbug: RawFrontEndCode.Aggregator.Workflows.Steps.DownloadPageContentStep[0]
+      Try to save source contents of PageId: 21549
+dbug: RawFrontEndCode.Aggregator.Workflows.Steps.DownloadPageContentStep[0]
+      Saved source contents of PageId: 21549
+info: System.Net.Http.HttpClient.XamunApiHttpClient.ClientHandler[101]
+      Received HTTP response headers after 1343.3454ms - 200
+info: System.Net.Http.HttpClient.XamunApiHttpClient.LogicalHandler[101]
+      End processing HTTP request after 1344.4496ms - 200
+dbug: RawFrontEndCode.Aggregator.Workflows.Steps.DownloadPageContentStep[0]
+      Content downloaded for PageId: 21550
+dbug: RawFrontEndCode.Aggregator.Workflows.Steps.DownloadPageContentStep[0]
+      Try to save source contents of PageId: 21550
+dbug: RawFrontEndCode.Aggregator.Workflows.Steps.DownloadPageContentStep[0]
+      Saved source contents of PageId: 21550
+info: System.Net.Http.HttpClient.XamunApiHttpClient.ClientHandler[101]
+      Received HTTP response headers after 1358.0393ms - 200
+info: System.Net.Http.HttpClient.XamunApiHttpClient.LogicalHandler[101]
+      End processing HTTP request after 1359.0393ms - 200
+dbug: RawFrontEndCode.Aggregator.Workflows.Steps.DownloadPageContentStep[0]
+      Content downloaded for PageId: 21548
+dbug: RawFrontEndCode.Aggregator.Workflows.Steps.DownloadPageContentStep[0]
+      Try to save source contents of PageId: 21548
+dbug: RawFrontEndCode.Aggregator.Workflows.Steps.DownloadPageContentStep[0]
+      Saved source contents of PageId: 21548
+dbug: WorkflowCore.Services.WorkflowExecutor[0]
+      Starting step GenerateOAuthTokenStep on workflow 25b0c854-9804-457b-b2fc-e9f63cb67ee3
+dbug: RawFrontEndCode.Aggregator.Workflows.Steps.GenerateOAuthTokenStep[0]
+      Token Generated
+dbug: WorkflowCore.Services.WorkflowExecutor[0]
+      Starting step LoadSolutionSetupStep on workflow 25b0c854-9804-457b-b2fc-e9f63cb67ee3
+dbug: RawFrontEndCode.Aggregator.Workflows.Steps.LoadSolutionSetupStep[0]
+      Trying to fetch solution setup in Project Id:1654
+info: System.Net.Http.HttpClient.XamunApiHttpClient.LogicalHandler[100]
+      Start processing HTTP request GET https://xamunapp-x-v2test.azurewebsites.net/service/api/CustomProjectPortfolioAsync/GetSolutionSetup/1654
+info: System.Net.Http.HttpClient.XamunApiHttpClient.ClientHandler[100]
+      Sending HTTP request GET https://xamunapp-x-v2test.azurewebsites.net/service/api/CustomProjectPortfolioAsync/GetSolutionSetup/1654
+info: System.Net.Http.HttpClient.XamunApiHttpClient.ClientHandler[101]
+      Received HTTP response headers after 439.1105ms - 200
+info: System.Net.Http.HttpClient.XamunApiHttpClient.LogicalHandler[101]
+      End processing HTTP request after 439.8657ms - 200
+dbug: RawFrontEndCode.Aggregator.Workflows.Steps.LoadSolutionSetupStep[0]
+      Successfully retrieve solution setup under project.
+dbug: WorkflowCore.Services.WorkflowExecutor[0]
+      Starting step GenerateOAuthTokenStep on workflow 25b0c854-9804-457b-b2fc-e9f63cb67ee3
+dbug: RawFrontEndCode.Aggregator.Workflows.Steps.GenerateOAuthTokenStep[0]
+      Token Generated
+dbug: WorkflowCore.Services.WorkflowExecutor[0]
+      Starting step DownloadThemeConfig on workflow 25b0c854-9804-457b-b2fc-e9f63cb67ee3
+dbug: RawFrontEndCode.Aggregator.Workflows.Steps.DownloadThemeConfig[0]
+      Trying to fetch theme config in Project Id:1654
+info: System.Net.Http.HttpClient.XamunApiHttpClient.LogicalHandler[100]
+      Start processing HTTP request GET https://xamunapp-x-v2test.azurewebsites.net/service/api/XamiPageDesigner/GetThemeConfig/1654/1
+info: System.Net.Http.HttpClient.XamunApiHttpClient.ClientHandler[100]
+      Sending HTTP request GET https://xamunapp-x-v2test.azurewebsites.net/service/api/XamiPageDesigner/GetThemeConfig/1654/1
+info: System.Net.Http.HttpClient.XamunApiHttpClient.ClientHandler[101]
+      Received HTTP response headers after 449.4928ms - 200
+info: System.Net.Http.HttpClient.XamunApiHttpClient.LogicalHandler[101]
+      End processing HTTP request after 450.3145ms - 200
+dbug: RawFrontEndCode.Aggregator.Workflows.Steps.DownloadThemeConfig[0]
+      Successfully retrieve theme config under project.
+dbug: WorkflowCore.Services.WorkflowExecutor[0]
+      Starting step PrepareFullPagesContent on workflow 25b0c854-9804-457b-b2fc-e9f63cb67ee3
+dbug: RawFrontEndCode.Aggregator.Workflows.Steps.PrepareFullPagesContent[0]
+      Trying to complete page content of PageId: 21549
+dbug: RawFrontEndCode.Aggregator.Workflows.Steps.PrepareFullPagesContent[0]
+      Trying to complete page content of PageId: 21548
+dbug: RawFrontEndCode.Aggregator.Workflows.Steps.PrepareFullPagesContent[0]
+      Trying to complete page content of PageId: 21550
+dbug: RawFrontEndCode.Aggregator.Workflows.Steps.PrepareFullPagesContent[0]
+      Save complete code of PageId: 21550
+dbug: RawFrontEndCode.Aggregator.Workflows.Steps.PrepareFullPagesContent[0]
+      Save complete code of PageId: 21549
+dbug: RawFrontEndCode.Aggregator.Workflows.Steps.PrepareFullPagesContent[0]
+      Save complete code of PageId: 21548
+dbug: WorkflowCore.Services.WorkflowExecutor[0]
+      Starting step GenerateOAuthTokenStep on workflow 25b0c854-9804-457b-b2fc-e9f63cb67ee3
+dbug: RawFrontEndCode.Aggregator.Workflows.Steps.GenerateOAuthTokenStep[0]
+      Token Generated
+dbug: WorkflowCore.Services.WorkflowExecutor[0]
+      Starting step DownloadMenuConfigurationStep on workflow 25b0c854-9804-457b-b2fc-e9f63cb67ee3
+dbug: RawFrontEndCode.Aggregator.Workflows.Steps.DownloadMenuConfigurationStep[0]
+      Trying to save menu file Project Id:1654
+info: System.Net.Http.HttpClient.XamunApiHttpClient.LogicalHandler[100]
+      Start processing HTTP request GET https://xamunapp-x-v2test.azurewebsites.net/service/api/XamiPageDesigner/GetMenuItems/1654/1
+info: System.Net.Http.HttpClient.XamunApiHttpClient.ClientHandler[100]
+      Sending HTTP request GET https://xamunapp-x-v2test.azurewebsites.net/service/api/XamiPageDesigner/GetMenuItems/1654/1
+info: System.Net.Http.HttpClient.XamunApiHttpClient.ClientHandler[101]
+      Received HTTP response headers after 487.8186ms - 200
+info: System.Net.Http.HttpClient.XamunApiHttpClient.LogicalHandler[101]
+      End processing HTTP request after 488.3608ms - 200
+dbug: WorkflowCore.Services.WorkflowExecutor[0]
+      Starting step GenerateGlobalScssDesign on workflow 25b0c854-9804-457b-b2fc-e9f63cb67ee3
+warn: RawFrontEndCode.Aggregator.Workflows.Steps.GenerateGlobalScssDesign[0]
+      Trying to generate Global SCSS file.
+dbug: WorkflowCore.Services.WorkflowExecutor[0]
+      Starting step SaveCodeGenerationMetadata on workflow 25b0c854-9804-457b-b2fc-e9f63cb67ee3
+dbug: RawFrontEndCode.Aggregator.Workflows.Steps.SaveCodeGenerationMetadata[0]
+      Trying to save HTML code generation metadata
+dbug: RawFrontEndCode.Aggregator.Workflows.Steps.SaveCodeGenerationMetadata[0]
+      Creating metadata.
+dbug: RawFrontEndCode.Aggregator.Workflows.Steps.SaveCodeGenerationMetadata[0]
+      Saved HTML code generation metadata
+info: RawFrontEndCode.Aggregator.Services.WorkflowMonitorService[0]
+      Workflow HtmlPagesAggregatorWorkflow completed.
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+dbug: Microsoft.Extensions.Hosting.Internal.Host[3]
+      Hosting stopping
+info: WorkflowCore.Services.WorkflowHost[0]
+      Stopping background tasks
+info: WorkflowCore.Services.WorkflowHost[0]
+      Worker tasks stopped
+info: RawFrontEndCode.Aggregator.Services.WorkflowMonitorService[0]
+      WorkflowHost stopped.
+info: RawFrontEndCode.Aggregator.Services.WorkflowMonitorService[0]
+      BackgroundService stopped.
+dbug: Microsoft.Extensions.Hosting.Internal.Host[4]
+      Hosting stopped
+

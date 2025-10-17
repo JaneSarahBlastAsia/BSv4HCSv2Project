@@ -1,0 +1,107 @@
+.booking-step {
+    display: none;
+}
+
+.booking-step.active {
+    display: block;
+}
+
+.progress {
+    height: 20px;
+}
+
+.progress-bar {
+    transition: width 0.5s ease-in-out;
+}
+
+.booking-steps {
+    margin-bottom: 2rem;
+}
+
+.step-number {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #f8f9fa;
+    margin-right: 8px;
+}
+
+.nav-pills .nav-link.active .step-number {
+    background-color: #fff;
+    color: #007bff;
+}
+
+.specialization-card {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.specialization-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.specialization-card.selected {
+    border-color: #007bff;
+    background-color: rgba(0, 123, 255, 0.05);
+}
+
+.provider-card {
+    transition: all 0.3s ease;
+}
+
+.provider-card:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.provider-card.selected {
+    border-color: #28a745;
+    background-color: rgba(40, 167, 69, 0.05);
+}
+
+#appointment-calendar {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 15px;
+}
+
+.time-slots-container {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.time-slots {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.time-slots label {
+    flex: 0 0 calc(33.333% - 10px);
+    margin: 5px !important;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .time-slots label {
+        flex: 0 0 calc(50% - 10px);
+    }
+}
+
+@media (max-width: 576px) {
+    .time-slots label {
+        flex: 0 0 calc(100% - 10px);
+    }
+}
+
+.rating {
+    margin-bottom: 10px;
+}
+
+.badge {
+    font-size: 90%;
+}

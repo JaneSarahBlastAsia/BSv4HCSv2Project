@@ -1,0 +1,23 @@
+{
+  "name": "html-dotnet8-template",
+  "version": "1.0.0",
+  "description": "ASP.NET Core 8 HTML template with SCSS compilation",
+  "scripts": {
+    "build-site-css": "sass wwwroot/scss/site.scss wwwroot/css/site.css --style=compressed --source-map",
+    "watch-site-css": "sass wwwroot/scss/site.scss wwwroot/css/site.css --style=compressed --source-map --watch"
+  },
+  "devDependencies": {
+    "sass": "^1.69.5"
+  },
+  "keywords": [
+    "aspnet-core",
+    "html",
+    "scss",
+    "bootstrap"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.6.1"
+  }
+}

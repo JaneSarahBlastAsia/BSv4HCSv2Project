@@ -1,0 +1,49 @@
+@{
+    ViewData["Title"] = "Error";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var statusCode = ViewData["StatusCode"] as int? ?? 500;
+}
+
+@if (statusCode == 404)
+{
+    <div class="error-code">404</div>
+    <h1 class="h2 mb-3">Page Not Found</h1>
+    <p class="error-message mb-4">The page you're looking for doesn't exist or has been moved.</p>
+}
+else if (statusCode == 500)
+{
+    <div class="error-code">500</div>
+    <h1 class="h2 mb-3">Internal Server Error</h1>
+    <p class="error-message mb-4">Something went wrong on our end. We're working to fix it.</p>
+}
+else
+{
+    <div class="error-icon mb-3">⚠️</div>
+    <h1 class="h2 mb-3">Oops! Something went wrong</h1>
+    <p class="error-message mb-4">We encountered an unexpected error (Error @statusCode). Please try again later.</p>
+}
+
+<div class="mb-4">
+    <a href="/" class="btn btn-primary btn-lg mr-3">Go Home</a>
+    @if (statusCode == 500)
+    {
+        <button onclick="location.reload()" class="btn btn-outline-secondary btn-lg">Try Again</button>
+    }
+    else
+    {
+        <button onclick="history.back()" class="btn btn-outline-secondary btn-lg">Go Back</button>
+    }
+</div>
+
+<div class="mt-4">
+    <small class="text-muted">
+        @if (statusCode == 404)
+        {
+            <text>If you believe this is an error, please contact support.</text>
+        }
+        else
+        {
+            <text>If this problem persists, please contact support.</text>
+        }
+    </small>
+</div>
